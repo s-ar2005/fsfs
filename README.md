@@ -37,10 +37,10 @@ python3 main.py write archive.fsfs docs /home/user/file.txt
 python3 main.py mkdir archive.fsfs docs
 
 # Rename a file or directory inside fsfs
-python3 main.py rename archive.fsfs docs/readme.md README.md
+python3 main.py ren archive.fsfs docs/readme.md README.md
 
 # Delete a file or empty directory inside fsfs
-python3 main.py delete archive.fsfs docs/oldfile.txt
+python3 main.py rm archive.fsfs docs/oldfile.txt
 ````
 
 ---
